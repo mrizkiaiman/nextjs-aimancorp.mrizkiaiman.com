@@ -9,7 +9,7 @@ export const TrustedBy = () => {
       </div>
       <div className="w-full flex flex-wrap justify-center items-center">
         {TRUSTED_BY.map((item, index) => (
-          <img key={item.name} className={`mx-3 md:mx-14 my-4 md:my-12 h-24 w-24 md:h-44 md:w-44`} src={item.img} />
+          <img key={item.name} alt={item.name} className={`mx-3 md:mx-14 my-4 md:my-12 h-24 w-24 md:h-44 md:w-44`} src={item.img} />
         ))}
       </div>
       <p className="text-center italic font-semibold text-gray-400 text-2xl md:text-3xl w-full px-4 md:px-0 md:w-2/4 pt-20">

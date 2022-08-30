@@ -11,7 +11,7 @@ export const AboutUs = () => {
         </p>
         <div className="mt-20">
           <p className="text-3xl font-bold text-center">Our team</p>
-          <p className="text-2xl text-center pt-2">the "spec-ops"</p>
+          <p className="text-2xl text-center pt-2">the main fighters</p>
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:gap-6 mt-8 mb-20">
             {TEAM_MEMBERS.map((item, index) => (
               <Member {...item} key={item.id} />
