@@ -1,0 +1,5 @@
+- In components -> projects -> index.tsx -> line 7 on numOfPages props
+- The number is still not true, should be 2 but because of there's an issue in the scroll effect, I changed it to 2.8 for better UX
+- It's also realted to components -> projects -> components -> Project.tsx in TileWrapper component
+- The percentY formula should be "const percentY = Math.min(clientHeight + halfH, Math.max(-screenH, scrollY - offsetTop) + halfH) / clientHeight"
+- But I changed it to "const percentY = Math.min(clientHeight + halfH, Math.max(-screenH, scrollY - offsetTop) + halfH) / (clientHeight * 1.5)" instead because i's more similar in terms of Margelo's scroll effect

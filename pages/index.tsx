@@ -5,6 +5,10 @@ import { Landing } from '../components/landing'
 import { AboutUs } from '../components/about-us'
 import { Skills } from '../components/skills'
 import { Projects } from '../components/projects'
+import { TrustedBy } from '../components/trusted-by'
+import { Testimonials } from '../components/testimonials'
+import { ContactUs } from '../components/contact-us'
+import { Footer } from '../components/footer'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +22,10 @@ const Home: NextPage = () => {
       <AboutUs />
       <Skills />
       <Projects />
+      <TrustedBy />
+      {/* <Testimonials /> */}
+      <ContactUs />
+      <Footer />
     </div>
   )
 }
