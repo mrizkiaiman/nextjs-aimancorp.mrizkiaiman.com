@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Image from 'next/image'
 import { ScrollContext } from './helpers/scroll-observer'
+import Link from 'next/link'
 
 export const Landing = () => {
   const refContainer = React.useRef<HTMLDivElement>(null)
@@ -31,7 +32,7 @@ export const Landing = () => {
             Business platform, done right.
           </p>
         </div>
-        <p className="font-bold text-white text-xl md:text-2xl tracking-tight drop-shadow-md">www.mrizkiaiman.com</p>
+        <Image src="/icons/arrow-down.webp" height={80} width={80} alt="arrow-down" />
       </div>
     </div>
   )
