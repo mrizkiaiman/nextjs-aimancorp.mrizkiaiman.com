@@ -39,14 +39,15 @@ export const Skills = () => {
           Create a professional business website in fastest way.
         </p>
         <p
-          className={`${styles.opacityAnimatedText} leading-tight font-semibold text-4xl p-6 md:text-7xl w-full md:mt-3 text-white inline-block after:content-['_']`}
+          className={`${styles.opacityAnimatedText} leading-tight font-bold text-4xl p-6 md:text-7xl w-full md:mt-3 text-white inline-block after:content-['_']`}
           style={{ opacity: opacityForBlock(progress, 1) }}>
           Our team has created hundreds of high-quality professional business site, powering thousands of business worldwide.
         </p>
         <p
-          className={`${styles.opacityAnimatedText} leading-tight font-semibold text-4xl p-6 md:text-7xl w-full md:mt-3 text-white inline-block`}
+          className={`${styles.opacityAnimatedText} leading-tight font-bold text-4xl p-6 md:text-7xl w-full md:mt-3 text-white inline-block`}
           style={{ opacity: opacityForBlock(progress, 2) }}>
-          We also provide a service to boost your business platform. Trusted by over 100 companies in the world.
+          We also provide a service to boost your business platform.{' '}
+          <span className="font-thin">Trusted by over 100 companies in the world.</span>
         </p>
       </div>
     </div>

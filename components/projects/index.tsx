@@ -23,7 +23,7 @@ export const Projects = () => (
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/mrizkiaiman.png" width={700} height={700} alt="mrizkiaiman.com" />
+              <Image src="/projects/mrizkiaiman.webp" width={700} height={700} alt="mrizkiaiman.com" />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
@@ -43,7 +43,7 @@ export const Projects = () => (
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/yarukoto.png" width={450} height={870} className="h-screen" alt="Yarukoto" />
+              <Image src="/projects/yarukoto.webp" width={450} height={870} className="h-screen" alt="Yarukoto" />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
@@ -56,14 +56,14 @@ export const Projects = () => (
             <ProjectLeft progress={progress}>
               <p className="text-2xl text-center md:text-left md:text-3xl pb-1">We created</p>
               <div className="flex items-center">
-                <ProjectLink href="https://github.com/mrizkiaiman/react-native-yarukoto">
+                <ProjectLink href="https://webvr.mrizkiaiman.com">
                   <p className="text-3xl md:text-5xl font-bold">a VR-app </p>
                 </ProjectLink>
                 <p className="pl-2 pt-1 text-3xl md:text-5xl font-bold">from web.</p>
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/webXR.png" width={700} height={700} className="h-screen" alt="Yarukoto" />
+              <Image src="/projects/webXR.webp" width={700} height={700} className="h-screen" alt="Yarukoto" />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
@@ -76,14 +76,14 @@ export const Projects = () => (
             <ProjectLeft progress={progress}>
               <p className="text-2xl text-center md:text-left md:text-3xl pb-1">And we also create</p>
               <div className="flex items-center">
-                <ProjectLink href="https://github.com/mrizkiaiman/react-native-yarukoto">
+                <ProjectLink href="https://webar.mrizkiaiman.com">
                   <p className="text-3xl md:text-5xl font-bold">an AR-app </p>
                 </ProjectLink>
                 <p className="pl-2 pt-1 text-3xl md:text-5xl font-bold">from scratch.</p>
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/webAR.png" width={700} height={700} className="h-screen" alt="Yarukoto" />
+              <Image src="/projects/webAR.webp" width={700} height={700} className="h-screen" alt="Yarukoto" />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
