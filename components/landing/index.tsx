@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Image from 'next/image'
 import { ScrollContext } from './helpers/scroll-observer'
 
 export const Landing = () => {
@@ -23,7 +24,7 @@ export const Landing = () => {
         <source src="/videos/matrix-like.mp4" type="video/mp4" />
       </video>
       <div className="flex flex-col justify-between items-center h-screen z-10 pb-8 pt-4">
-        <img alt="sp-logo" src="./logo.webp" width={100} height={100} />
+        <Image alt="sp-logo" src="/logo.webp" width={120} height={100} />
         <div>
           <p className="text-white font-bold text-4xl md:text-5xl  text-center tracking-tighter drop-shadow-xl">AimanCorp.</p>
           <p className="text-white font-bold text-2xl md:text-3xl text-center pt-3 tracking-tight drop-shadow-xl">

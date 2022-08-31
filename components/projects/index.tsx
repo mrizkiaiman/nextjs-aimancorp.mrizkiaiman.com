@@ -23,7 +23,7 @@ export const Projects = () => (
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/mrizkiaiman.webp" width={700} height={700} alt="mrizkiaiman.com" />
+              <Image src="/projects/mrizkiaiman.webp" width={700} height={700} alt="mrizkiaiman.com" priority />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
@@ -43,7 +43,7 @@ export const Projects = () => (
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/yarukoto.webp" width={450} height={870} className="h-screen" alt="Yarukoto" />
+              <Image src="/projects/yarukoto.webp" width={450} height={870} className="h-screen" alt="Yarukoto" priority />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
@@ -63,7 +63,7 @@ export const Projects = () => (
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/webXR.webp" width={700} height={700} className="h-screen" alt="Yarukoto" />
+              <Image src="/projects/webXR.webp" width={700} height={700} className="h-screen" alt="WebVR" priority />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
@@ -83,7 +83,7 @@ export const Projects = () => (
               </div>
             </ProjectLeft>
             <ProjectRight progress={progress}>
-              <Image src="/projects/webAR.webp" width={700} height={700} className="h-screen" alt="Yarukoto" />
+              <Image src="/projects/webAR.webp" width={700} height={700} className="h-screen" alt="WebAR" priority />
             </ProjectRight>
           </ProjectContainer>
         )}></Tile>
